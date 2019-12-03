@@ -1,0 +1,22 @@
+{
+  "name": "accounting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node .",
+    "pkg": "pkg . --out-path ./bin"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^14.3.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-compose": "^4.1.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  }
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  margin: 10px;
+}
+
+.balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 3em;
+}
+
+.transactions {
+  margin-bottom: 10px;
+}
+
+.transaction {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.transaction--debit {
+  color: red;
+}
+
+.transaction--credit {
+  color: green;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  font-size: .9rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
