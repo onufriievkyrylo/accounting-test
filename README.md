@@ -1,4 +1,4 @@
-#KYRYLO ONUFRIIEV
+# KYRYLO ONUFRIIEV
 
 ## To run the client side of the app
 - cd client
